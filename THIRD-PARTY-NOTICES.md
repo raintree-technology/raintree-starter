@@ -97,8 +97,8 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | @iconify/types 2.0.0 | MIT | [license.txt](third-party-license-texts/045ce74712fc613fdd74d1c55f5140a08d623836ff2aca44132b38d68fbc67ad.txt) |
 | @iconify/utils 3.1.4 | MIT | [license.txt](third-party-license-texts/a86793ac023162ce98b91899601c15f6712f44943163c4f92a0a4bf89152b3bf.txt) |
 | @img/colour 1.1.0 | MIT | [LICENSE.md](third-party-license-texts/e2eaa4603c14cb26f301e88648c12a853fa3f0f5da6d4b0972958c666e7f2ab8.txt) |
-| @img/sharp-darwin-arm64 0.35.3 | Apache-2.0 | [LICENSE](third-party-license-texts/73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68.txt) |
-| @img/sharp-libvips-darwin-arm64 1.3.2 | LGPL-3.0-or-later | No adjacent text found |
+| @img/sharp-darwin-arm64 0.35.4 | Apache-2.0 | [LICENSE](third-party-license-texts/73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68.txt) |
+| @img/sharp-libvips-darwin-arm64 1.3.3 | LGPL-3.0-or-later | No adjacent text found |
 | @jridgewell/gen-mapping 0.3.13 | MIT | [LICENSE](third-party-license-texts/769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c.txt) |
 | @jridgewell/remapping 2.3.5 | MIT | [LICENSE](third-party-license-texts/769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c.txt) |
 | @jridgewell/resolve-uri 3.1.2 | MIT | [LICENSE](third-party-license-texts/b8778b155bfde5a28b023a558753c0fa058a52bb9de35c343c250be1bbcdedab.txt) |
@@ -806,7 +806,7 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | set-function-length 1.2.2 | MIT | [LICENSE](third-party-license-texts/bf9b0d665be2a689851eea667ca9f42066ea1d903b38349c51e6a44b2577680a.txt) |
 | set-function-name 2.0.2 | MIT | [LICENSE](third-party-license-texts/bf9b0d665be2a689851eea667ca9f42066ea1d903b38349c51e6a44b2577680a.txt) |
 | set-proto 1.0.0 | MIT | [LICENSE](third-party-license-texts/5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292.txt) |
-| sharp 0.35.3 | Apache-2.0 | [LICENSE](third-party-license-texts/73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68.txt) |
+| sharp 0.35.4 | Apache-2.0 | [LICENSE](third-party-license-texts/73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68.txt) |
 | shebang-command 2.0.0 | MIT | [license](third-party-license-texts/69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3.txt) |
 | shebang-regex 3.0.0 | MIT | [license](third-party-license-texts/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt) |
 | shiki 3.23.0 | MIT | [LICENSE](third-party-license-texts/7a9d8d01038aeacf9e5bcdabbddf2a7815200dce9fc1118468cc553e00ae3eee.txt) |

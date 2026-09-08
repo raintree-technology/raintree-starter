@@ -1,6 +1,6 @@
 {
   "name": "next-starter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -130,7 +130,7 @@
     "mermaid": "11.16.1",
     "nanoid": "3.3.18",
     "postcss": "8.5.26",
-    "sharp": "0.35.3",
+    "sharp": "0.35.4",
     "typescript-eslint": "8.63.0",
     "undici": "7.29.0",
     "vite": "8.1.4",

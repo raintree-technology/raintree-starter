@@ -2,6 +2,10 @@
 
 This file records user-visible changes to the starter, scaffold profiles, add-ons, generated-project contract, migrations, environment requirements, and compatibility.
 
+## 0.1.1 — 2026-09-08
+
+- Update Sharp to 0.35.4 for the upstream libheif security fixes.
+
 ## 0.1.0 — 2026-09-08
 
 - Add pinned Biome and Trellis development checks while retaining Next.js ESLint.
