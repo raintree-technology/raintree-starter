@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Next Starter logo system</title>
+  <desc id="desc">A presentation of the Next Starter symbol, wordmark, app icon, favicon, monochrome, and reversed variants.</desc>
+  <rect width="1600" height="1100" fill="#f3f1ec"/>
+
+  <g font-family="Avenir Next">
+    <text x="96" y="92" fill="#77746f" font-size="18" font-weight="600" letter-spacing="3">NEXT STARTER / IDENTITY SYSTEM</text>
+    <text x="96" y="146" fill="#1f1f21" font-size="42" font-weight="600" letter-spacing="-1.4">A modular foundation, ready to move.</text>
+
+    <g transform="translate(96 220)">
+      <rect width="590" height="360" rx="24" fill="#faf9f6"/>
+      <text x="34" y="48" fill="#77746f" font-size="16" font-weight="600" letter-spacing="2">STANDALONE SYMBOL</text>
+      <g transform="translate(167 72) scale(4)">
+        <path fill="#1f1f21" fill-rule="evenodd" transform="rotate(180 32 32)" d="M32 6 51 29h-8l14 17H38v12H26V46H7l14-17h-8L32 6Zm0 18-7 9 7 9 7-9-7-9Z"/>
+      </g>
+    </g>
+
+    <g transform="translate(720 220)">
+      <rect width="784" height="170" rx="24" fill="#faf9f6"/>
+      <text x="34" y="44" fill="#77746f" font-size="16" font-weight="600" letter-spacing="2">PRIMARY LOCKUP</text>
+      <g transform="translate(34 65)">
+        <g transform="scale(1.2)">
+          <path fill="#1f1f21" fill-rule="evenodd" transform="rotate(180 32 32)" d="M32 6 51 29h-8l14 17H38v12H26V46H7l14-17h-8L32 6Zm0 18-7 9 7 9 7-9-7-9Z"/>
+        </g>
+        <text x="98" y="62" fill="#1f1f21" font-size="52" font-weight="600" letter-spacing="-1.5">Next Starter</text>
+      </g>
+    </g>
+
+    <g transform="translate(720 424)">
+      <rect width="374" height="374" rx="24" fill="#faf9f6"/>
+      <text x="30" y="44" fill="#77746f" font-size="16" font-weight="600" letter-spacing="2">APP ICON</text>
+      <g transform="translate(79 86) scale(.84)">
+        <rect width="256" height="256" rx="56" fill="#1f1f21"/>
+        <path fill="#faf9f6" fill-rule="evenodd" transform="rotate(180 128 128)" d="m128 42 68 82h-29l50 60h-68v36h-42v-36H39l50-60H60l68-82Zm0 66-25 30 25 30 25-30-25-30Z"/>
+      </g>
+    </g>
+
+    <g transform="translate(1130 424)">
+      <rect width="374" height="374" rx="24" fill="#faf9f6"/>
+      <text x="30" y="44" fill="#77746f" font-size="16" font-weight="600" letter-spacing="2">FAVICON / 16 PX LOGIC</text>
+      <g transform="translate(91 102) scale(6)">
+        <rect width="32" height="32" rx="7" fill="#1f1f21"/>
+        <path fill="#faf9f6" fill-rule="evenodd" transform="rotate(180 16 16)" d="m16 5 8 10h-3l6 7h-8v5h-6v-5H5l6-7H8l8-10Zm0 8-3 3.5 3 3.5 3-3.5-3-3.5Z"/>
+      </g>
+    </g>
+
+    <g transform="translate(96 620)">
+      <rect width="590" height="178" rx="24" fill="#1f1f21"/>
+      <text x="34" y="44" fill="#9b9994" font-size="16" font-weight="600" letter-spacing="2">REVERSED / DARK</text>
+      <g transform="translate(32 70)">
+        <g transform="scale(1.2)">
+          <path fill="#faf9f6" fill-rule="evenodd" transform="rotate(180 32 32)" d="M32 6 51 29h-8l14 17H38v12H26V46H7l14-17h-8L32 6Zm0 18-7 9 7 9 7-9-7-9Z"/>
+        </g>
+        <text x="98" y="62" fill="#faf9f6" font-size="48" font-weight="600" letter-spacing="-1.4">Next Starter</text>
+      </g>
+    </g>
+
+    <g transform="translate(96 836)">
+      <rect width="1408" height="174" rx="24" fill="#faf9f6"/>
+      <text x="34" y="44" fill="#77746f" font-size="16" font-weight="600" letter-spacing="2">DARK + LIGHT PALETTE</text>
+      <g transform="translate(36 72) scale(1.2)">
+        <path fill="#1f1f21" fill-rule="evenodd" transform="rotate(180 32 32)" d="M32 6 51 29h-8l14 17H38v12H26V46H7l14-17h-8L32 6Zm0 18-7 9 7 9 7-9-7-9Z"/>
+      </g>
+      <g transform="translate(164 72) scale(1.2)">
+        <path fill="#7e7e80" fill-rule="evenodd" transform="rotate(180 32 32)" d="M32 6 51 29h-8l14 17H38v12H26V46H7l14-17h-8L32 6Zm0 18-7 9 7 9 7-9-7-9Z"/>
+      </g>
+      <rect x="360" y="72" width="70" height="70" rx="14" fill="#1f1f21"/>
+      <text x="450" y="101" fill="#1f1f21" font-size="18" font-weight="600">Near black</text>
+      <text x="450" y="127" fill="#77746f" font-size="16">#1F1F21</text>
+      <rect x="700" y="72" width="70" height="70" rx="14" fill="#faf9f6" stroke="#dedbd4"/>
+      <text x="790" y="101" fill="#1f1f21" font-size="18" font-weight="600">Warm white</text>
+      <text x="790" y="127" fill="#77746f" font-size="16">#FAF9F6</text>
+    </g>
+  </g>
+</svg>

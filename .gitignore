@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# User-specific settings (keep settings.json template)
+.claude/settings.local.json
+
+# Logs
+*.log
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+/test-results
+/tmp/agent-browser
+
+# next.js
+/.next/
+/out/
+tsconfig.tsbuildinfo
+
+# production
+/build
+
+# misc
+*.pem
+
+# env files
+.env*
+!.env.example
+
+# security audit notes
+/security/
+/.claude/cleanup-reports/
+
+# vercel
+.vercel
+
+# mise local overrides
+mise.local.toml
+mise.*.local.toml
+mise.local.lock
+mise.*.local.lock
+.mise/

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="color-scheme" content="light dark">
+    <title>Offline</title>
+    <style>
+      :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+      body { min-height: 100dvh; margin: 0; display: grid; place-items: center; padding: 24px; }
+      main { max-width: 36rem; }
+      .brand { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 40px; color: inherit; font-weight: 700; text-decoration: none; }
+      h1 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1; margin: 0 0 1rem; }
+      p { color: color-mix(in srgb, CanvasText 72%, Canvas); line-height: 1.6; }
+      a { color: inherit; font-weight: 600; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a class="brand" href="/" aria-label="Next Starter home">
+        <svg aria-hidden="true" width="32" height="32" viewBox="0 0 64 64">
+          <path fill="currentColor" fill-rule="evenodd" transform="rotate(180 32 32)" d="M32 6 51 29h-8l14 17H38v12H26V46H7l14-17h-8L32 6Zm0 18-7 9 7 9 7-9-7-9Z" />
+        </svg>
+        <span>Next Starter</span>
+      </a>
+      <h1>You are offline</h1>
+      <p>The app could not reach the network. Check your connection and retry the page.</p>
+      <p><a href="/">Return home</a></p>
+    </main>
+  </body>
+</html>

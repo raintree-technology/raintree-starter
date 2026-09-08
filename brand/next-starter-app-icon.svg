@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">Next Starter app icon</title>
+  <rect width="256" height="256" rx="56" fill="#1f1f21"/>
+  <path fill="#faf9f6" fill-rule="evenodd" transform="rotate(180 128 128)" d="m128 42 68 82h-29l50 60h-68v36h-42v-36H39l50-60H60l68-82Zm0 66-25 30 25 30 25-30-25-30Z"/>
+</svg>

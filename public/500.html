@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Something went wrong</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family:
+          Geist, "Geist Fallback", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+      }
+
+      body {
+        min-height: 100dvh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        background: Canvas;
+        color: CanvasText;
+      }
+
+      main {
+        width: min(100% - 32px, 640px);
+        padding: 48px 0;
+      }
+
+      p {
+        line-height: 1.6;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 40px;
+        color: inherit;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      .eyebrow {
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        opacity: 0.72;
+      }
+
+      h1 {
+        margin: 16px 0;
+        font-size: clamp(2rem, 5vw, 3.5rem);
+        line-height: 1.05;
+      }
+
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 32px;
+      }
+
+      a {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        color: inherit;
+        text-underline-offset: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a class="brand" href="/" aria-label="Next Starter home">
+        <svg aria-hidden="true" width="32" height="32" viewBox="0 0 64 64">
+          <path fill="currentColor" fill-rule="evenodd" transform="rotate(180 32 32)" d="M32 6 51 29h-8l14 17H38v12H26V46H7l14-17h-8L32 6Zm0 18-7 9 7 9 7-9-7-9Z" />
+        </svg>
+        <span>Next Starter</span>
+      </a>
+      <p class="eyebrow">500</p>
+      <h1>Something went wrong.</h1>
+      <p>The site hit an unexpected problem. You can try again or return to a known page.</p>
+      <nav aria-label="Recovery links">
+        <a href="/">Go home</a>
+        <a href="/dashboard">Open dashboard</a>
+      </nav>
+    </main>
+  </body>
+</html>

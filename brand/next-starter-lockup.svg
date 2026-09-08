@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 96" role="img" aria-labelledby="title">
+  <title id="title">Next Starter logo</title>
+  <path fill="#1f1f21" fill-rule="evenodd" transform="rotate(180 48 48)" d="M48 14 72 43h-10l18 21H56v16H40V64H16l18-21H24L48 14Zm0 23-9 11 9 11 9-11-9-11Z"/>
+  <text x="106" y="61" fill="#1f1f21" font-family="Avenir Next" font-size="40" font-weight="600" letter-spacing="-1.2">Next Starter</text>
+</svg>

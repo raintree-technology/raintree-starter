@@ -1,0 +1,61 @@
+import { cacheLife } from "next/cache";
+import { features } from "@/lib/config";
+import { createPageMetadata } from "@/lib/metadata";
+
+export const metadata = createPageMetadata({
+  title: "Privacy",
+  description:
+    "How generated apps should handle account, organization, billing, and product data.",
+  path: "/privacy",
+  imagePath: "/privacy/opengraph-image",
+  imageAlt: "Privacy policy for Next Starter",
+});
+
+export default async function PrivacyPage() {
+  "use cache";
+  cacheLife("weeks");
+
+  return (
+    <div className="content-width max-w-3xl py-20">
+      <h1 className="text-4xl font-semibold tracking-tight">Privacy</h1>
+      <p className="mt-4">
+        Draft notice: the application owner must supply contact details,
+        processors, retention periods, and applicable rights before launch.
+      </p>
+      <div className="mt-8 space-y-8 text-sm leading-7 text-muted-foreground">
+        <section>
+          <h2 className="text-title text-foreground">Data we collect</h2>
+          <p className="mt-2">
+            {features.appName} stores the account, organization, billing, and
+            project data needed to operate the service. Authentication cookies
+            are used for signed-in sessions.
+          </p>
+        </section>
+        <section>
+          <h2 className="text-title text-foreground">How we use it</h2>
+          <p className="mt-2">
+            Data is used to provide the product, process billing, secure
+            accounts, deliver transactional email, and respond to support or
+            security requests.
+          </p>
+        </section>
+        <section>
+          <h2 className="text-title text-foreground">Sharing and retention</h2>
+          <p className="mt-2">
+            Service providers receive only the data required for their function.
+            The application owner must configure and verify retention, deletion,
+            and backup handling before making commitments.
+          </p>
+        </section>
+        <section>
+          <h2 className="text-title text-foreground">Visitor choice</h2>
+          <p className="mt-2">
+            This starter does not require non-essential tracking cookies. If
+            analytics or marketing scripts are added, they should respect Global
+            Privacy Control and require consent where applicable.
+          </p>
+        </section>
+      </div>
+    </div>
+  );
+}
