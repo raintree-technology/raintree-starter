@@ -6,14 +6,14 @@ import { ERROR_PAGES, STANDARD_ERROR_ACTIONS } from "@/lib/error-pages";
 
 export default function GlobalError({
   error,
-  unstable_retry,
+  retry: retryAction,
   reset,
 }: {
   error: Error & { digest?: string };
-  unstable_retry?: () => void;
+  retry?: () => void;
   reset?: () => void;
 }) {
-  const retry = unstable_retry ?? reset;
+  const retry = retryAction ?? reset;
   const page = ERROR_PAGES.serverError;
   const actions = STANDARD_ERROR_ACTIONS.site;
 

@@ -63,7 +63,7 @@ describe("custom error pages", () => {
         error={Object.assign(new Error("database password leaked"), {
           digest: "digest-123",
         })}
-        unstable_retry={() => {}}
+        retry={() => {}}
       />,
     );
 
@@ -85,7 +85,7 @@ describe("custom error pages", () => {
         error={Object.assign(new Error("stack trace should stay private"), {
           digest: "digest-456",
         })}
-        unstable_retry={() => {}}
+        retry={() => {}}
       />,
     );
 
@@ -109,8 +109,8 @@ describe("custom error pages", () => {
   });
 
   it("uses Next component-level error recovery outside error file conventions", () => {
-    expect(recoverableBoundarySource).toContain("unstable_catchError");
-    expect(recoverableBoundarySource).toContain("unstable_retry");
+    expect(recoverableBoundarySource).toContain("catchError");
+    expect(recoverableBoundarySource).toContain("retry");
 
     for (const source of [
       appLayoutSource,
@@ -122,7 +122,7 @@ describe("custom error pages", () => {
     }
 
     for (const source of [rootErrorSource, globalErrorSource, appErrorSource]) {
-      expect(source).not.toContain("unstable_catchError");
+      expect(source).not.toContain("catchError");
     }
   });
 

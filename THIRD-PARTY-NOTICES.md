@@ -1,6 +1,6 @@
 # Third-party notice inventory
 
-This inventory records installed package metadata and available notice files for the 2026-09-08 private release review. It does not establish ownership, license compatibility, or permission to publish.
+This inventory records installed package metadata and available notice files for the 2026-09-08 source release. It does not establish ownership, license compatibility, or permission to publish.
 
 The inventory includes development tools and embedded test fixtures on macOS ARM64. Other platform packages and build-time downloaded fonts are outside this inventory. The source archive excludes installed packages and build output.
 
@@ -20,8 +20,8 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | @ai-sdk/react 4.0.23 | Apache-2.0 | [LICENSE](third-party-license-texts/b4f9adb7c568904834d0dd6cc98d16c390d21ca32fc17ae7a267715269bd5529.txt) |
 | @alloc/quick-lru 5.2.0 | MIT | [license](third-party-license-texts/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt) |
 | @antfu/install-pkg 1.1.0 | MIT | [LICENSE](third-party-license-texts/67cd5e903c1f908edfa27c25606fa806ce629d9a8ddb7d83019d9fd1f83f7fde.txt) |
-| @asamuzakjp/css-color 5.1.11 | MIT | [LICENSE](third-party-license-texts/2f11a643ac2dfffa6649f388df26c2310830580d4077ebccba923811c52bb8b1.txt) |
-| @asamuzakjp/dom-selector 7.1.1 | MIT | [LICENSE](third-party-license-texts/c2fe8edc6572312535eea25abd4af682eb85cfc90a97ee1137d1cf6edca991cf.txt) |
+| @asamuzakjp/css-color 5.1.11 | MIT | [LICENSE](third-party-license-texts/bd4539377980dd797fc6a51d90e664e52b2b2625b2158f01d4c68b5fe107eacb.txt) |
+| @asamuzakjp/dom-selector 7.1.1 | MIT | [LICENSE](third-party-license-texts/7cdf9db3b91cc77b9ec947ad0c7126140f00e34528b67c3a58e9fc1a98055e14.txt) |
 | @asamuzakjp/generational-cache 1.0.1 | MIT | [LICENSE](third-party-license-texts/b4206276487160066d7006579da64b1e104f0db639897d5b91babdd0df8165e1.txt) |
 | @asamuzakjp/nwsapi 2.3.9 | MIT | [LICENSE](third-party-license-texts/9b0ffd74f2cde7528141cc314ece705490d11054805da4a01ee6149498951b8f.txt) |
 | @babel/code-frame 7.29.7 | MIT | [LICENSE](third-party-license-texts/117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76.txt) |
@@ -56,7 +56,7 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | @better-auth/telemetry 1.6.23 | MIT | [LICENSE.md](third-party-license-texts/7a07f7d9085cb3157e4377d944988c9712933141b0f7201955ceccfac92abde4.txt) |
 | @better-auth/utils 0.4.2 | MIT | No adjacent text found |
 | @better-fetch/fetch 1.3.1 | MIT | [LICENSE](third-party-license-texts/54d710e643b5fd218f0c29cddea92432b2c730dddd594c7047c97993dd9f9a59.txt) |
-| @biomejs/biome 2.5.6 | MIT OR Apache-2.0 | [LICENSE-APACHE](third-party-license-texts/e2746aba8799f7a3378259f36a83a079e811ca7926cbdd248a2eb7ca9cbbac5d.txt), [LICENSE-MIT](third-party-license-texts/4f6a0d776a00c0f46e1da1879321896071494229aa3219862a625e4560691a3a.txt) |
+| @biomejs/biome 2.5.6 | MIT OR Apache-2.0 | No adjacent text found |
 | @biomejs/cli-darwin-arm64 2.5.6 | MIT OR Apache-2.0 | No adjacent text found |
 | @braintree/sanitize-url 7.1.2 | MIT | [LICENSE](third-party-license-texts/0984740e0c3d725c8044dec7edcefe1dbce180ef5a7bc710c251e19607000158.txt) |
 | @bramus/specificity 2.4.2 | MIT | [LICENSE](third-party-license-texts/ae842a63dd9bc829c95a2ec22dda25a08e422a368b71dbca67a45cde7c4a4b81.txt) |
@@ -109,9 +109,9 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | @my-scope/package-a 0.0.0 | MIT | No adjacent text found |
 | @my-scope/package-b 0.0.0 | MIT | No adjacent text found |
 | @neondatabase/serverless 1.1.0 | MIT | [LICENSE](third-party-license-texts/52d77cad9a5d509fed860399f75f0798b24d27c49be5616f8ff15a42bd98c249.txt) |
-| @next/env 16.2.12 | MIT | No adjacent text found |
-| @next/eslint-plugin-next 16.2.12 | MIT | No adjacent text found |
-| @next/swc-darwin-arm64 16.2.12 | MIT | No adjacent text found |
+| @next/env 16.3.3 | MIT | No adjacent text found |
+| @next/eslint-plugin-next 16.3.3 | MIT | No adjacent text found |
+| @next/swc-darwin-arm64 16.3.3 | MIT | No adjacent text found |
 | @noble/ciphers 2.2.0 | MIT | [LICENSE](third-party-license-texts/f36671a5487c9c5050efacb58011c37c24c55a889803cb036cf9d9a6347c1e2d.txt) |
 | @noble/hashes 2.2.0 | MIT | [LICENSE](third-party-license-texts/4f221aee6e072336700c408c68ab3b96a3fc09f6aebe6f48f1bd99e5ef13faec.txt) |
 | @nodelib/fs.scandir 2.1.5 | MIT | [LICENSE](third-party-license-texts/9363d160bf41d46d83901a5d24fc3fe2094c2afc17b4a2378914b273977ee2de.txt) |
@@ -193,7 +193,7 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | @rolldown/binding-darwin-arm64 1.1.5 | MIT | No adjacent text found |
 | @rolldown/pluginutils 1.0.1 | MIT | [LICENSE](third-party-license-texts/e1919b3b98b8bf6c1b99fcc60a0ed46027c97ac947432e1278446c9606f50161.txt) |
 | @rtsao/scc 1.1.0 | MIT | [LICENSE](third-party-license-texts/bfdefb3f2e265c9380c8b0e99ac6675b903e7e36f39b238be56283c00c1453fa.txt) |
-| @selderee/plugin-htmlparser2 0.11.0 | MIT | [LICENSE](third-party-license-texts/1847e52cd02429ecd6b31cba32fabdfef4229732084c06a73bacdc71030818c0.txt) |
+| @selderee/plugin-htmlparser2 0.11.0 | MIT | [LICENSE](third-party-license-texts/07e82387dc9c036fd9ba882150fb5b89d70aa49eb5f3212f09975bbb988d50d0.txt) |
 | @shikijs/core 3.23.0 | MIT | [LICENSE](third-party-license-texts/7a9d8d01038aeacf9e5bcdabbddf2a7815200dce9fc1118468cc553e00ae3eee.txt) |
 | @shikijs/engine-javascript 3.23.0 | MIT | [LICENSE](third-party-license-texts/7a9d8d01038aeacf9e5bcdabbddf2a7815200dce9fc1118468cc553e00ae3eee.txt) |
 | @shikijs/engine-oniguruma 3.23.0 | MIT | [LICENSE](third-party-license-texts/7a9d8d01038aeacf9e5bcdabbddf2a7815200dce9fc1118468cc553e00ae3eee.txt) |
@@ -209,7 +209,7 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | @streamdown/code 1.1.1 | Apache-2.0 | [LICENSE](third-party-license-texts/b4f9adb7c568904834d0dd6cc98d16c390d21ca32fc17ae7a267715269bd5529.txt) |
 | @streamdown/math 1.0.2 | Apache-2.0 | [LICENSE](third-party-license-texts/b4f9adb7c568904834d0dd6cc98d16c390d21ca32fc17ae7a267715269bd5529.txt) |
 | @streamdown/mermaid 1.0.2 | Apache-2.0 | [LICENSE](third-party-license-texts/b4f9adb7c568904834d0dd6cc98d16c390d21ca32fc17ae7a267715269bd5529.txt) |
-| @swc/helpers 0.5.15 | Apache-2.0 | [LICENSE](third-party-license-texts/d96eba1f1881334d50ffc144276dfa98e147a415e7c591ecdfcb81680361dc91.txt) |
+| @swc/helpers 0.5.23 | Apache-2.0 | [LICENSE](third-party-license-texts/d96eba1f1881334d50ffc144276dfa98e147a415e7c591ecdfcb81680361dc91.txt) |
 | @t3-oss/env-core 0.13.11 | MIT | No adjacent text found |
 | @t3-oss/env-nextjs 0.13.11 | MIT | No adjacent text found |
 | @tailwindcss/node 4.3.2 | MIT | [LICENSE](third-party-license-texts/60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985.txt) |
@@ -287,13 +287,13 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | @vercel/og 0.11.1 | MPL-2.0 | [LICENSE](third-party-license-texts/1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5.txt) |
 | @vercel/oidc 3.2.0 | Apache-2.0 | [LICENSE](third-party-license-texts/b070d77bfb2c52a1dd6996de0ce5f64c49a0ca55c889b163a963ddf5cb001ee2.txt) |
 | @vitejs/plugin-react 6.0.3 | MIT | [LICENSE](third-party-license-texts/29b68325fe026047d13e187b44c33b2acacf7dc647dec4583702e59f235e13b5.txt) |
-| @vitest/expect 4.1.10 | MIT | [LICENSE](third-party-license-texts/04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551.txt) |
-| @vitest/mocker 4.1.10 | MIT | [LICENSE](third-party-license-texts/04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551.txt) |
-| @vitest/pretty-format 4.1.10 | MIT | [LICENSE](third-party-license-texts/04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551.txt) |
-| @vitest/runner 4.1.10 | MIT | [LICENSE](third-party-license-texts/04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551.txt) |
-| @vitest/snapshot 4.1.10 | MIT | [LICENSE](third-party-license-texts/04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551.txt) |
-| @vitest/spy 4.1.10 | MIT | [LICENSE](third-party-license-texts/04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551.txt) |
-| @vitest/utils 4.1.10 | MIT | [LICENSE](third-party-license-texts/04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551.txt) |
+| @vitest/expect 4.1.11 | MIT | [LICENSE](third-party-license-texts/04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551.txt) |
+| @vitest/mocker 4.1.11 | MIT | [LICENSE](third-party-license-texts/04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551.txt) |
+| @vitest/pretty-format 4.1.11 | MIT | [LICENSE](third-party-license-texts/04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551.txt) |
+| @vitest/runner 4.1.11 | MIT | [LICENSE](third-party-license-texts/04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551.txt) |
+| @vitest/snapshot 4.1.11 | MIT | [LICENSE](third-party-license-texts/04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551.txt) |
+| @vitest/spy 4.1.11 | MIT | [LICENSE](third-party-license-texts/04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551.txt) |
+| @vitest/utils 4.1.11 | MIT | [LICENSE](third-party-license-texts/04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551.txt) |
 | @workflow/serde 4.1.0 | Apache-2.0 | [LICENSE.md](third-party-license-texts/39248a57eaac37e120c65bae851c6382bf722fc87c3452bf6a245caef96db739.txt) |
 | acorn 8.17.0 | MIT | [LICENSE](third-party-license-texts/76a876cf886ff9be2a8b5e2e86514fed06223c8c9f0c1e9ee9606e93841e00b7.txt) |
 | acorn-jsx 5.3.2 | MIT | [LICENSE](third-party-license-texts/cfa72b62b9ae173078823a3796b25c027a9071046a263beddf966df67018ce06.txt) |
@@ -318,11 +318,11 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | async-function 1.0.0 | MIT | [LICENSE](third-party-license-texts/eab1e270ad6ecc6fdd64f9c149e019633fb6e59b2445002cb33d14f93092c42f.txt) |
 | atomic-sleep 1.0.0 | MIT | [LICENSE](third-party-license-texts/8d58741278b289a7f4b6dde2d6273fca7711b9849452c477933d1cccd03db1e7.txt) |
 | available-typed-arrays 1.0.7 | MIT | [LICENSE](third-party-license-texts/6d0917530cf3b3dca12c1ab7798e4d38ad0a6798ecc1bd27849a3048ba91d265.txt) |
-| axe-core 4.11.1 | MPL-2.0 | [LICENSE](third-party-license-texts/af175b9d96ee93c21a036152e1b905b0b95304d4ae8c2c921c7609100ba8df7e.txt), [LICENSE-3RD-PARTY.txt](third-party-license-texts/4f8563870d0fca38bbc3e00b6f670cb7fa9f380ba9f26a7f7d1184a6b18b1653.txt) |
+| axe-core 4.11.1 | MPL-2.0 | [LICENSE](third-party-license-texts/af175b9d96ee93c21a036152e1b905b0b95304d4ae8c2c921c7609100ba8df7e.txt) |
 | axobject-query 4.1.0 | Apache-2.0 | [LICENSE](third-party-license-texts/c8df456c7ccba74b959087dff494d4ac2a12dfb0400c08b46b2494a08a000567.txt) |
 | bail 2.0.2 | MIT | [license](third-party-license-texts/63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf.txt) |
 | balanced-match 4.0.4 | MIT | [LICENSE.md](third-party-license-texts/d408f38ffa3355c5faec517153295338892eb0f1ea43f57874bb23c6075979b5.txt) |
-| baseline-browser-mapping 2.10.38 | Apache-2.0 | [LICENSE.txt](third-party-license-texts/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt) |
+| baseline-browser-mapping 2.11.0 | Apache-2.0 | [LICENSE.txt](third-party-license-texts/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt) |
 | baseline-browser-mapping 2.11.20 | Apache-2.0 | [LICENSE.txt](third-party-license-texts/c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4.txt) |
 | better-auth 1.6.23 | MIT | [LICENSE.md](third-party-license-texts/7a07f7d9085cb3157e4377d944988c9712933141b0f7201955ceccfac92abde4.txt) |
 | better-call 1.3.7 | MIT | [LICENSE](third-party-license-texts/ad800a5024c64adeb3eafa2b2b01893027a68631ff367a993020d1ec36e11266.txt) |
@@ -335,7 +335,6 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | call-bind-apply-helpers 1.0.2 | MIT | [LICENSE](third-party-license-texts/5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292.txt) |
 | call-bound 1.0.4 | MIT | [LICENSE](third-party-license-texts/5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292.txt) |
 | callsites 3.1.0 | MIT | [license](third-party-license-texts/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt) |
-| caniuse-lite 1.0.30001799 | CC-BY-4.0 | [LICENSE](third-party-license-texts/fd3a263fe19ed8faa9068b43abaebafc02c77897b0c6fc09abc04bb592e5f16e.txt) |
 | caniuse-lite 1.0.30001810 | CC-BY-4.0 | [LICENSE](third-party-license-texts/fd3a263fe19ed8faa9068b43abaebafc02c77897b0c6fc09abc04bb592e5f16e.txt) |
 | ccount 2.0.1 | MIT | [license](third-party-license-texts/63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf.txt) |
 | chai 6.2.2 | MIT | [LICENSE](third-party-license-texts/b181da80336ff9dd1043fc8be1a764d7382363433319aa872e4d2cb5ce2a3066.txt) |
@@ -348,7 +347,7 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | client-only 0.0.1 | MIT | No adjacent text found |
 | clsx 2.1.1 | MIT | [license](third-party-license-texts/9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97.txt) |
 | color-convert 2.0.1 | MIT | [LICENSE](third-party-license-texts/693866fc419c6f61c8570438ec00659d156ec2b4d4a4d04091711f5f11a365d4.txt) |
-| color-name 1.1.4 | MIT | [LICENSE](third-party-license-texts/7357445bac398c76c0aef75a587009fe406d40de6a79789eb5b7ecbbad317ef2.txt) |
+| color-name 1.1.4 | MIT | [LICENSE](third-party-license-texts/c064f7a3e353bc1bc977f3c897941c75ef763f44f41677e0a15370ca0853d6e2.txt) |
 | comma-separated-tokens 2.0.3 | MIT | [license](third-party-license-texts/ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d.txt) |
 | commander 7.2.0 | MIT | [LICENSE](third-party-license-texts/04512a63dce4d2d506ad612dc0bd7681ccf6e3655f7b6eaef7dfac8323d1ec0b.txt) |
 | commander 8.3.0 | MIT | [LICENSE](third-party-license-texts/04512a63dce4d2d506ad612dc0bd7681ccf6e3655f7b6eaef7dfac8323d1ec0b.txt) |
@@ -357,9 +356,9 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | cose-base 2.2.0 | MIT | [LICENSE](third-party-license-texts/5fb3cf4a14c3c5af6e473a192df8bca10c77754e3a0c6492c79fb92a76a5478a.txt) |
 | cross-spawn 7.0.6 | MIT | [LICENSE](third-party-license-texts/aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1.txt) |
 | css-tree 3.2.1 | MIT | [LICENSE](third-party-license-texts/719a251ceca49c057ea90a1152af6546b767ec88e6d573bb6324454267b32c22.txt) |
-| css.escape 1.5.1 | MIT | [LICENSE-MIT.txt](third-party-license-texts/483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a.txt) |
+| css.escape 1.5.1 | MIT | No adjacent text found |
 | csstype 3.2.3 | MIT | [LICENSE](third-party-license-texts/11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e.txt) |
-| cytoscape 3.34.0 | MIT | [LICENSE](third-party-license-texts/eb319c6e6f233607f71e8e2f450391751883cfc0eeb3ca7ef574c13d1d9c2203.txt), [license-update.mjs](third-party-license-texts/4a5a644717fc90d678e8fbbc537a08452d0566726710eef47b196abd6363e635.txt) |
+| cytoscape 3.34.0 | MIT | [LICENSE](third-party-license-texts/eb319c6e6f233607f71e8e2f450391751883cfc0eeb3ca7ef574c13d1d9c2203.txt) |
 | cytoscape-cose-bilkent 4.1.0 | MIT | [LICENSE](third-party-license-texts/440fc58a56a12814e417d2b341da89b050da052dc75bdb235607d37ec5fe74ef.txt) |
 | cytoscape-fcose 2.2.0 | MIT | [LICENSE](third-party-license-texts/2837634f403949215760fcdd2fa1ed0c64875d02099ecc8318c704b852f1421d.txt) |
 | d3 7.9.0 | ISC | [LICENSE](third-party-license-texts/3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4.txt) |
@@ -406,7 +405,7 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | dayjs 1.11.21 | MIT | [LICENSE](third-party-license-texts/5faab7526d055651be3aab769d58897be6bd91f3d39d137f25f12dba1b31d5dc.txt) |
 | debug 3.2.7 | MIT | [LICENSE](third-party-license-texts/98c970de440dcfc77471610aec2377c9d9b0db2b3be6d1add524a586e1d7f422.txt) |
 | debug 4.4.3 | MIT | [LICENSE](third-party-license-texts/3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95.txt) |
-| decimal.js 10.6.0 | MIT | [LICENCE.md](third-party-license-texts/a0df2307b32880324fc5f42def582b5c1fa2058a30bbab90731c948241a5c7c2.txt) |
+| decimal.js 10.6.0 | MIT | [LICENCE.md](third-party-license-texts/3108b546bcff5d346923a82f48b2d252ca722f9088076db6d145f6b67757ad6c.txt) |
 | decode-named-character-reference 1.3.0 | MIT | [license](third-party-license-texts/dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb.txt) |
 | deep-is 0.1.4 | MIT | [LICENSE](third-party-license-texts/f2042f3634c4136d06b5139c9c6aefb81a3a462b514548bc1845953233dfba98.txt) |
 | deepmerge 4.3.1 | MIT | [license.txt](third-party-license-texts/6cfc4687cb2f2d86f4a77e6b526290d3878e5e512f3fec2f4cb36a9cb36f798b.txt) |
@@ -423,13 +422,13 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | dom-serializer 2.0.0 | MIT | [LICENSE](third-party-license-texts/94cfe87de9b178e8fee313a19178e625129e2ce559db32e772e7bd95114ee6ff.txt) |
 | domelementtype 2.3.0 | BSD-2-Clause | [LICENSE](third-party-license-texts/cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164.txt) |
 | domhandler 5.0.3 | BSD-2-Clause | [LICENSE](third-party-license-texts/cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164.txt) |
-| dompurify 3.4.13 | (MPL-2.0 OR Apache-2.0) | [LICENSE](third-party-license-texts/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt), [LICENSE-MPL](third-party-license-texts/fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85.txt) |
+| dompurify 3.4.13 | (MPL-2.0 OR Apache-2.0) | [LICENSE](third-party-license-texts/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt) |
 | domutils 3.2.2 | BSD-2-Clause | [LICENSE](third-party-license-texts/cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164.txt) |
 | drizzle-kit 0.31.10 | MIT | No adjacent text found |
 | drizzle-orm 0.45.2 | Apache-2.0 | No adjacent text found |
 | dunder-proto 1.0.1 | MIT | [LICENSE](third-party-license-texts/2b770a704c15de238c3f622b01b0044ddd60b49ee30608ea6991ebf19db7a7a1.txt) |
 | electron-to-chromium 1.5.420 | ISC | [LICENSE](third-party-license-texts/25ba5c59dad3e0dd8f9540beaa0f0a86a10e3aec35af5fdc8e88c5f6a5c0d8c6.txt) |
-| emoji-regex 9.2.2 | MIT | [LICENSE-MIT.txt](third-party-license-texts/483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a.txt) |
+| emoji-regex 9.2.2 | MIT | No adjacent text found |
 | enhanced-resolve 5.21.6 | MIT | [LICENSE](third-party-license-texts/9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e.txt) |
 | entities 4.5.0 | BSD-2-Clause | [LICENSE](third-party-license-texts/cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164.txt) |
 | entities 6.0.1 | BSD-2-Clause | [LICENSE](third-party-license-texts/cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164.txt) |
@@ -438,7 +437,7 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | es-define-property 1.0.1 | MIT | [LICENSE](third-party-license-texts/5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292.txt) |
 | es-errors 1.3.0 | MIT | [LICENSE](third-party-license-texts/5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292.txt) |
 | es-iterator-helpers 1.2.2 | MIT | [LICENSE](third-party-license-texts/1a3aeb1f1398bd697d57c3c585faadf59d825aca6e3162cd7eeb72ff76eb2466.txt) |
-| es-module-lexer 2.1.0 | MIT | [LICENSE](third-party-license-texts/8a4b6c44eebfb026d23719a348145a661a555568dbfdc11618ff2d0dd9306b00.txt) |
+| es-module-lexer 2.1.0 | MIT | [LICENSE](third-party-license-texts/fecc38b5e10d889686b3862e7ade17e8b3e5c94b24b7256b05a354d8524b3274.txt) |
 | es-object-atoms 1.1.1 | MIT | [LICENSE](third-party-license-texts/5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292.txt) |
 | es-set-tostringtag 2.1.0 | MIT | [LICENSE](third-party-license-texts/1a3aeb1f1398bd697d57c3c585faadf59d825aca6e3162cd7eeb72ff76eb2466.txt) |
 | es-shim-unscopables 1.1.0 | MIT | [LICENSE](third-party-license-texts/d90bf0a089da4cf43d644ed240a0b3825dcdb705e64e38371d56995a4cc9e4c5.txt) |
@@ -449,7 +448,7 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | escape-string-regexp 4.0.0 | MIT | [license](third-party-license-texts/5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3.txt) |
 | escape-string-regexp 5.0.0 | MIT | [license](third-party-license-texts/5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3.txt) |
 | eslint 9.39.5 | MIT | [LICENSE](third-party-license-texts/3b6be04f862a077a4b97929dbf247299360824d9365f8603c263769303ace18c.txt) |
-| eslint-config-next 16.2.12 | MIT | No adjacent text found |
+| eslint-config-next 16.3.3 | MIT | No adjacent text found |
 | eslint-import-resolver-node 0.3.9 | MIT | [LICENSE](third-party-license-texts/7829efc4266fad5f57f7fc489429a3b35d0c62183c0bd617ef6591f64c980c92.txt) |
 | eslint-import-resolver-typescript 3.10.1 | ISC | [LICENSE](third-party-license-texts/cb38960320e8cc7c23e613bacbd5d84c9af46e6366e59f925071bf3787d5bc3d.txt) |
 | eslint-module-utils 2.12.1 | MIT | [LICENSE](third-party-license-texts/7829efc4266fad5f57f7fc489429a3b35d0c62183c0bd617ef6591f64c980c92.txt) |
@@ -533,8 +532,8 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | html-void-elements 3.0.0 | MIT | [license](third-party-license-texts/ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d.txt) |
 | htmlparser2 8.0.2 | MIT | [LICENSE](third-party-license-texts/204cfa747341660e4da64cd23e8c876c6b20279d247f48564993d3fc4a2eab47.txt) |
 | iconv-lite 0.6.3 | MIT | [LICENSE](third-party-license-texts/ac779f7314c74f232ef847ea86e714abe25cf6eeb5cc97b69451b74e2af6492d.txt) |
-| ignore 5.3.2 | MIT | [LICENSE-MIT](third-party-license-texts/9c94db23dc4b1e9aaee5d195668b916afc71efed54af226b66cf0ccc4389c1c0.txt) |
-| ignore 7.0.5 | MIT | [LICENSE-MIT](third-party-license-texts/9c94db23dc4b1e9aaee5d195668b916afc71efed54af226b66cf0ccc4389c1c0.txt) |
+| ignore 5.3.2 | MIT | No adjacent text found |
+| ignore 7.0.5 | MIT | No adjacent text found |
 | import-fresh 3.3.1 | MIT | [license](third-party-license-texts/5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3.txt) |
 | import-meta-resolve 4.2.0 | MIT | [license](third-party-license-texts/8770a1a4b69ee722636643e81340ce4a8f0b8415b1c568487edc9062338bfcc7.txt) |
 | imurmurhash 0.1.4 | MIT | No adjacent text found |
@@ -564,7 +563,7 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | is-number 7.0.0 | MIT | [LICENSE](third-party-license-texts/35bdd8a44339719441900fb50fbefc5e2dca1ca662cbaed7a687de842c8b70f2.txt) |
 | is-number-object 1.1.1 | MIT | [LICENSE](third-party-license-texts/c61652db3d2808f667b48af0a358f0d85fd07ad4a0d0b1a50882dec3b764c522.txt) |
 | is-plain-obj 4.1.0 | MIT | [license](third-party-license-texts/5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3.txt) |
-| is-potential-custom-element-name 1.0.1 | MIT | [LICENSE-MIT.txt](third-party-license-texts/483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a.txt) |
+| is-potential-custom-element-name 1.0.1 | MIT | No adjacent text found |
 | is-regex 1.2.1 | MIT | [LICENSE](third-party-license-texts/dc0fe5a22d9336f345ee984f9bf56f11f22877a3aa5fd16a1db9a8ca0e23a5d1.txt) |
 | is-set 2.0.3 | MIT | [LICENSE](third-party-license-texts/5a26e47b9d7020848f061bcad66f8e73cab95f529dab5c02588b21e57c4f876c.txt) |
 | is-shared-array-buffer 1.0.4 | MIT | [LICENSE](third-party-license-texts/e2560e002e13281578c75c850061d9255c33d16d732939e8c2db64c2506642fa.txt) |
@@ -582,9 +581,9 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | js-tokens 4.0.0 | MIT | [LICENSE](third-party-license-texts/2213d91c606205c71eb051a199478cdc2adde945893404d7f1421436dd6d5cc1.txt) |
 | js-yaml 4.3.1 | MIT | [LICENSE](third-party-license-texts/a07bc24468b9654ce76a547d47a2db282d07733b715db4c73a98bd63961f9550.txt) |
 | jsdom 29.1.1 | MIT | [LICENSE.txt](third-party-license-texts/242d37e7cab25cbafc36cc973ee88f9345fddf066afe4f72b7ac3d9ad4e24cce.txt) |
-| jsesc 3.1.0 | MIT | [LICENSE-MIT.txt](third-party-license-texts/483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a.txt) |
+| jsesc 3.1.0 | MIT | No adjacent text found |
 | json-buffer 3.0.1 | MIT | [LICENSE](third-party-license-texts/715f1f0f2eb7688e53e4e958acdc7fc9e365ae3eaf26efc2604b93cc65fdc3f5.txt) |
-| json-schema 0.4.0 | (AFL-2.1 OR BSD-3-Clause) | [LICENSE](third-party-license-texts/9037c946f70e6397de29745f48caebf80c2b12c1d426d1d23581cb1c8595968e.txt) |
+| json-schema 0.4.0 | (AFL-2.1 OR BSD-3-Clause) | [LICENSE](third-party-license-texts/4e053c510d6f3e4724213a292c65142df68d069c40f558582bc4270914e16f77.txt) |
 | json-schema-traverse 0.4.1 | MIT | [LICENSE](third-party-license-texts/7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a.txt) |
 | json-stable-stringify-without-jsonify 1.0.1 | MIT | [LICENSE](third-party-license-texts/435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b.txt) |
 | json5 1.0.2 | MIT | [LICENSE.md](third-party-license-texts/53e59feb13058722d977c699eb0407c7bce2f93c949b681bbd2ff31698535927.txt) |
@@ -592,13 +591,13 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | jsx-ast-utils 3.3.5 | MIT | [LICENSE.md](third-party-license-texts/82b19019e25e266a310ef46800b3af726136a3cee79af8812dc83ca0b045afae.txt) |
 | katex 0.16.47 | MIT | [LICENSE](third-party-license-texts/766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3.txt) |
 | keyv 4.5.4 | MIT | No adjacent text found |
-| khroma 2.1.0 | None | [license](third-party-license-texts/66b333b0f66759a0b710459e03f7029abe17f4358114a128d2c972e642961b49.txt) |
+| khroma 2.1.0 | Not declared | [license](third-party-license-texts/66b333b0f66759a0b710459e03f7029abe17f4358114a128d2c972e642961b49.txt) |
 | kysely 0.28.17 | MIT | [LICENSE](third-party-license-texts/f70408a03a6ae16b093ae84757bd813f861124e851efc7a17c3cb29ff247ff54.txt) |
 | language-subtag-registry 0.3.23 | CC0-1.0 | No adjacent text found |
 | language-tags 1.0.9 | MIT | No adjacent text found |
 | layout-base 1.0.2 | MIT | [LICENSE](third-party-license-texts/eabb762d8a95109a39c9be3247325529a5239a7aca327d909c3ccdc41f3a06bf.txt) |
 | layout-base 2.0.1 | MIT | [LICENSE](third-party-license-texts/eabb762d8a95109a39c9be3247325529a5239a7aca327d909c3ccdc41f3a06bf.txt) |
-| leac 0.6.0 | MIT | [LICENSE](third-party-license-texts/1847e52cd02429ecd6b31cba32fabdfef4229732084c06a73bacdc71030818c0.txt) |
+| leac 0.6.0 | MIT | [LICENSE](third-party-license-texts/07e82387dc9c036fd9ba882150fb5b89d70aa49eb5f3212f09975bbb988d50d0.txt) |
 | levn 0.4.1 | MIT | [LICENSE](third-party-license-texts/b9eb082c39fe245e38793699074c394c43a722c51fce031c3c165cb92a31035c.txt) |
 | lightningcss 1.32.0 | MPL-2.0 | [LICENSE](third-party-license-texts/5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e.txt) |
 | lightningcss-darwin-arm64 1.32.0 | MPL-2.0 | [LICENSE](third-party-license-texts/5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e.txt) |
@@ -680,7 +679,7 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | nanostores 1.3.0 | MIT | [LICENSE](third-party-license-texts/181bc2685f0cea9d1beb28352420e3a7fb382b38895d2b430ed1b3bc39572af6.txt) |
 | napi-postinstall 0.3.4 | MIT | [LICENSE](third-party-license-texts/6b2ba6ac4aa455c1f4254e882e3ab425260726d60239d1f03ee9429935643aa9.txt) |
 | natural-compare 1.4.0 | MIT | No adjacent text found |
-| next 16.2.12 | MIT | [license.md](third-party-license-texts/ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224.txt) |
+| next 16.3.3 | MIT | [license.md](third-party-license-texts/ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224.txt) |
 | next-themes 0.4.6 | MIT | [license.md](third-party-license-texts/b5acfd21b3b61508365224c40ec1b03ec71091248baaf989d4be916551e7d532.txt) |
 | node-releases 2.0.54 | MIT | [LICENSE](third-party-license-texts/3706296ed611888111ceccc1dff4712844dea4bde0b185c82d718c3b69895abe.txt) |
 | object-assign 4.1.1 | MIT | [license](third-party-license-texts/6fb9754611c20f6649f68805e8c990e83261f29316e29de9e6cedae607b8634c.txt) |
@@ -704,13 +703,13 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | parse-entities 4.0.2 | MIT | [license](third-party-license-texts/5d0698266086f217bb11ea0499d33453e401fe479fb9126ad04e625e63d3557b.txt) |
 | parse5 7.3.0 | MIT | [LICENSE](third-party-license-texts/8c535800331e1e4439835555b3f9edc7fe9dee2fab0d8bbbd5a982e8b8343d4d.txt) |
 | parse5 8.0.1 | MIT | [LICENSE](third-party-license-texts/8c535800331e1e4439835555b3f9edc7fe9dee2fab0d8bbbd5a982e8b8343d4d.txt) |
-| parseley 0.12.1 | MIT | [LICENSE](third-party-license-texts/1847e52cd02429ecd6b31cba32fabdfef4229732084c06a73bacdc71030818c0.txt) |
+| parseley 0.12.1 | MIT | [LICENSE](third-party-license-texts/07e82387dc9c036fd9ba882150fb5b89d70aa49eb5f3212f09975bbb988d50d0.txt) |
 | path-data-parser 0.1.0 | MIT | [LICENSE](third-party-license-texts/e9754a00aebde654e80f40bcf41dab667d6a41dfbbd2912bcf14fb07d468bf71.txt) |
 | path-exists 4.0.0 | MIT | [license](third-party-license-texts/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt) |
 | path-key 3.1.1 | MIT | [license](third-party-license-texts/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt) |
 | path-parse 1.0.7 | MIT | [LICENSE](third-party-license-texts/3f4609137f65070541b9214300ea0d640af8192857de0eeb2b03403003d9228a.txt) |
 | pathe 2.0.3 | MIT | [LICENSE](third-party-license-texts/52e92576851154bad7737e90cc72818936f43665cb0e3f7428ed8edc8cc5709b.txt) |
-| peberminta 0.9.0 | MIT | [LICENSE](third-party-license-texts/1847e52cd02429ecd6b31cba32fabdfef4229732084c06a73bacdc71030818c0.txt) |
+| peberminta 0.9.0 | MIT | [LICENSE](third-party-license-texts/07e82387dc9c036fd9ba882150fb5b89d70aa49eb5f3212f09975bbb988d50d0.txt) |
 | pg 8.22.0 | MIT | [LICENSE](third-party-license-texts/192b8f5c96900f04a1271dec39688655d7416c1c6ea84a508e18b50d2b6751f3.txt) |
 | pg-cloudflare 1.4.0 | MIT | [LICENSE](third-party-license-texts/192b8f5c96900f04a1271dec39688655d7416c1c6ea84a508e18b50d2b6751f3.txt) |
 | pg-connection-string 2.14.0 | MIT | [LICENSE](third-party-license-texts/2244b5486c4427001b6756a87b9a297d427c111dcc3ba64a097492a8979c23d0.txt) |
@@ -740,17 +739,17 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | process-warning 5.0.0 | MIT | [LICENSE](third-party-license-texts/d9726abc9eff9496f3ecb5302e70756f310db24a01c7ddd20f541143bf5576ad.txt) |
 | prop-types 15.8.1 | MIT | [LICENSE](third-party-license-texts/f657f99d3fb9647db92628e96007aabb46e5f04f33e49999075aab8e250ca7ce.txt) |
 | property-information 7.2.0 | MIT | [license](third-party-license-texts/5d0698266086f217bb11ea0499d33453e401fe479fb9126ad04e625e63d3557b.txt) |
-| punycode 2.3.1 | MIT | [LICENSE-MIT.txt](third-party-license-texts/483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a.txt) |
+| punycode 2.3.1 | MIT | No adjacent text found |
 | pvtsutils 1.3.6 | MIT | [LICENSE](third-party-license-texts/c620c1d08a47c93ce242914a4269b86e41df5a97845325725a5f83d5d6f9d7fd.txt) |
 | pvutils 1.1.5 | MIT | [LICENSE](third-party-license-texts/15c88630f1e778db64a446cb31b67362cc9eb7a048fdf5ac7ab51905b74464cd.txt) |
-| qrcode-generator 0.0.0 | None | No adjacent text found |
+| qrcode-generator 0.0.0 | Not declared | No adjacent text found |
 | qrcode-generator 2.0.4 | MIT | No adjacent text found |
 | queue-microtask 1.2.3 | MIT | [LICENSE](third-party-license-texts/d4c2065e2b936e62a4eb400efb4576edec9ca1388a9f78aa288e147275e7bc8b.txt) |
 | quick-format-unescaped 4.0.4 | MIT | [LICENSE](third-party-license-texts/5ac141bfc70bec8f40838502436bfcb85e3f4c24377e41b9ddef07bdd6aa51bc.txt) |
 | react 19.2.7 | MIT | [LICENSE](third-party-license-texts/da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93.txt) |
 | react-dom 19.2.7 | MIT | [LICENSE](third-party-license-texts/da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93.txt) |
 | react-is 16.13.1 | MIT | [LICENSE](third-party-license-texts/52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85.txt) |
-| react-is 19.3.0-canary-3f0b9e61-20260317 | MIT | [LICENSE](third-party-license-texts/da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93.txt) |
+| react-is 19.3.0-canary-cbb046ab-20260731 | MIT | [LICENSE](third-party-license-texts/da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93.txt) |
 | react-qr-code 2.2.0 | MIT | [LICENSE](third-party-license-texts/59ed3467c4626a81f5408114cff30346c9d82dca67b0b60805747eabc70490ff.txt) |
 | react-refresh 0.12.0 | MIT | [LICENSE](third-party-license-texts/52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85.txt) |
 | react-remove-scroll 2.7.2 | MIT | [LICENSE](third-party-license-texts/30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9.txt) |
@@ -759,7 +758,7 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | real-require 0.2.0 | MIT | [LICENSE.md](third-party-license-texts/cbf263504e800cf09f99962cce8497b76eef79c3526bca434b90c3ef4c17220d.txt) |
 | real-require 1.0.0 | MIT | [LICENSE.md](third-party-license-texts/cbf263504e800cf09f99962cce8497b76eef79c3526bca434b90c3ef4c17220d.txt) |
 | redent 3.0.0 | MIT | [license](third-party-license-texts/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt) |
-| reflect-metadata 0.2.2 | Apache-2.0 | [LICENSE](third-party-license-texts/c5217b0544ea9c91d010863582d6f6b35ec50e4146c34dee085ddcec5dd92def.txt), [CopyrightNotice.txt](third-party-license-texts/6ae234220a8743d938861c7efce8575ceae7d32a4a3e0163e6c46641f4ec75a2.txt) |
+| reflect-metadata 0.2.2 | Apache-2.0 | [LICENSE](third-party-license-texts/c5217b0544ea9c91d010863582d6f6b35ec50e4146c34dee085ddcec5dd92def.txt) |
 | reflect.getprototypeof 1.0.10 | MIT | [LICENSE](third-party-license-texts/d6151cc698dc6a772e5b448069270a095488f3962aef0b11e78974e1e1587082.txt) |
 | regenerator-runtime 0.13.4 | MIT | [LICENSE](third-party-license-texts/51887a3d47051ac2fce1210562e5b9fe0830a8a8fabeb272c2d586eeb18a05fd.txt) |
 | regex 6.1.0 | MIT | [LICENSE](third-party-license-texts/3d19c2b6246b3072547af2bd05e6b4c09bd3d15955590f1f1e1d20382c919a49.txt) |
@@ -798,7 +797,7 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | safer-buffer 2.1.2 | MIT | [LICENSE](third-party-license-texts/4bc935e71be198c67ddf3c2b5fddb195f6edc182bfc155a96a6db61b44b494b9.txt) |
 | saxes 6.0.0 | ISC | No adjacent text found |
 | scheduler 0.27.0 | MIT | [LICENSE](third-party-license-texts/da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93.txt) |
-| selderee 0.11.0 | MIT | [LICENSE](third-party-license-texts/1847e52cd02429ecd6b31cba32fabdfef4229732084c06a73bacdc71030818c0.txt) |
+| selderee 0.11.0 | MIT | [LICENSE](third-party-license-texts/07e82387dc9c036fd9ba882150fb5b89d70aa49eb5f3212f09975bbb988d50d0.txt) |
 | semver 6.3.1 | ISC | [LICENSE](third-party-license-texts/4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b.txt) |
 | semver 7.7.3 | ISC | [LICENSE](third-party-license-texts/4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b.txt) |
 | semver 7.8.5 | ISC | [LICENSE](third-party-license-texts/4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b.txt) |
@@ -831,7 +830,7 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | streamdown 2.5.0 | Apache-2.0 | [LICENSE](third-party-license-texts/b4f9adb7c568904834d0dd6cc98d16c390d21ca32fc17ae7a267715269bd5529.txt) |
 | string.prototype.includes 2.0.1 | MIT | [LICENSE](third-party-license-texts/483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a.txt) |
 | string.prototype.matchall 4.0.12 | MIT | [LICENSE](third-party-license-texts/c61652db3d2808f667b48af0a358f0d85fd07ad4a0d0b1a50882dec3b764c522.txt) |
-| string.prototype.repeat 1.0.0 | MIT | [LICENSE-MIT.txt](third-party-license-texts/483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a.txt) |
+| string.prototype.repeat 1.0.0 | MIT | No adjacent text found |
 | string.prototype.trim 1.2.10 | MIT | [LICENSE](third-party-license-texts/c16d06f1808d8d8c6ec0f6b6fb7e951126c46730fbb67320863a81f8aa8ca033.txt) |
 | string.prototype.trimend 1.0.9 | MIT | [LICENSE](third-party-license-texts/a5e49293b629194f16e08c965807b34a4a8f45aa2735658a3b0e3c1478a34b30.txt) |
 | string.prototype.trimstart 1.0.8 | MIT | [LICENSE](third-party-license-texts/a5e49293b629194f16e08c965807b34a4a8f45aa2735658a3b0e3c1478a34b30.txt) |
@@ -857,7 +856,6 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | tinybench 2.9.0 | MIT | [LICENSE](third-party-license-texts/cebc084d54e6dd99e53292ddb4bc1cdb63d9bfcd9ce438fe3aa6eb106d79e2ea.txt) |
 | tinyexec 1.2.2 | MIT | [LICENSE](third-party-license-texts/f95f668fe64081ddb4153b322e34fdd719b991285ed08177d5ad7133b7988d92.txt) |
 | tinyglobby 0.2.15 | MIT | [LICENSE](third-party-license-texts/22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f.txt) |
-| tinyglobby 0.2.16 | MIT | [LICENSE](third-party-license-texts/22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f.txt) |
 | tinyglobby 0.2.17 | MIT | [LICENSE](third-party-license-texts/22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f.txt) |
 | tinyrainbow 3.1.0 | MIT | [LICENCE](third-party-license-texts/cebc084d54e6dd99e53292ddb4bc1cdb63d9bfcd9ce438fe3aa6eb106d79e2ea.txt) |
 | tldts 7.4.0 | MIT | [LICENSE](third-party-license-texts/c64182d48160db948b6aa97a984f1a32974ce4d2053900361264cd33853796cb.txt) |
@@ -865,14 +863,14 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | to-regex-range 5.0.1 | MIT | [LICENSE](third-party-license-texts/e7d1fee7347ffddccc5fd03327ffdb50f8c112be0d5016d62388a92c4ae6e7a9.txt) |
 | tough-cookie 6.0.1 | BSD-3-Clause | [LICENSE](third-party-license-texts/22ec6791c91ba42c0516a05f4cbdde019aae4687f8a38c5ca7e8a69ee68f851d.txt) |
 | tr46 6.0.0 | MIT | [LICENSE.md](third-party-license-texts/499d6d466d064e0460427967a344e2a32fcb86ea8c6cd1a285ec4f1fa03fba67.txt) |
-| transport 0.0.1 | None | No adjacent text found |
+| transport 0.0.1 | Not declared | No adjacent text found |
 | trim-lines 3.0.1 | MIT | [license](third-party-license-texts/9f084fac69d8cf1e6ce983ba5a3499c7695ed74a26ec625c38f0fd19fddd5e10.txt) |
 | trough 2.2.0 | MIT | [license](third-party-license-texts/6c03fd41cfd7c92d8aa8a2fa521b94b2683f059123281dcf921ddea9216b6254.txt) |
 | ts-api-utils 2.5.0 | MIT | [LICENSE.md](third-party-license-texts/76c9d5f5ea942054715c026f33f8717c9e24603196a3737b8899afa216bcbdab.txt) |
 | ts-dedent 2.3.0 | MIT | [LICENSE](third-party-license-texts/eff13095d9d762c3bd9dda74370c81e2130c28f2691bc455603abf973bac25b9.txt) |
 | tsconfig-paths 3.15.0 | MIT | [LICENSE](third-party-license-texts/8850a2d4828514113042db6ec97237b7ca6cb1599734874e5817d521f8f84e1c.txt) |
-| tslib 1.14.1 | 0BSD | [CopyrightNotice.txt](third-party-license-texts/877887436bbb1fc5ff12793813d65f06d664532ca8629667c8bbc755eb035dc1.txt), [LICENSE.txt](third-party-license-texts/0e8d2550baea17eb3072c4f919b36fbf9852bb49dba948549872e713863c0834.txt) |
-| tslib 2.8.1 | 0BSD | [CopyrightNotice.txt](third-party-license-texts/72ba857a2d06a6d440c28e690835119f6d70fe16f58b7538e3e3c1c133d944d7.txt), [LICENSE.txt](third-party-license-texts/0e8d2550baea17eb3072c4f919b36fbf9852bb49dba948549872e713863c0834.txt) |
+| tslib 1.14.1 | 0BSD | [LICENSE.txt](third-party-license-texts/210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751.txt) |
+| tslib 2.8.1 | 0BSD | [LICENSE.txt](third-party-license-texts/210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751.txt) |
 | tsx 4.22.3 | MIT | [LICENSE](third-party-license-texts/8dded67841a9261a622c739fb61c81785e93765de852828ceeb9403d20a74581.txt) |
 | tsyringe 4.10.0 | MIT | [LICENSE](third-party-license-texts/27ebda9d51f0a56b7e281ccd8230a27236dcb51c05f64b07869ecf6e965d68b0.txt) |
 | type-check 0.4.0 | MIT | [LICENSE](third-party-license-texts/b9eb082c39fe245e38793699074c394c43a722c51fce031c3c165cb92a31035c.txt) |
@@ -880,7 +878,7 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | typed-array-byte-length 1.0.3 | MIT | [LICENSE](third-party-license-texts/6d0917530cf3b3dca12c1ab7798e4d38ad0a6798ecc1bd27849a3048ba91d265.txt) |
 | typed-array-byte-offset 1.0.4 | MIT | [LICENSE](third-party-license-texts/6d0917530cf3b3dca12c1ab7798e4d38ad0a6798ecc1bd27849a3048ba91d265.txt) |
 | typed-array-length 1.0.7 | MIT | [LICENSE](third-party-license-texts/6d0917530cf3b3dca12c1ab7798e4d38ad0a6798ecc1bd27849a3048ba91d265.txt) |
-| typescript 6.0.3 | Apache-2.0 | [LICENSE.txt](third-party-license-texts/a5e9f9b1575301c7a7a03508fdaa2e05a918cc17fd21c6e898096a96d6a34f61.txt) |
+| typescript 6.0.3 | Apache-2.0 | [LICENSE.txt](third-party-license-texts/a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47.txt) |
 | typescript-eslint 8.63.0 | MIT | [LICENSE](third-party-license-texts/2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0.txt) |
 | unbox-primitive 1.1.0 | MIT | [LICENSE](third-party-license-texts/cfc3f455254c0af0655cc3ff46a41ed644b67599f6043346169d285bf2b3cf3b.txt) |
 | uncrypto 0.1.3 | MIT | [LICENSE](third-party-license-texts/46231df5a7733c3f52f11b71f3df61813007745b62b09031acfb45fb42d75082.txt) |
@@ -907,7 +905,7 @@ The project configures shadcn/ui. Its [upstream MIT notice](third-party-license-
 | vfile-location 5.0.3 | MIT | [license](third-party-license-texts/ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d.txt) |
 | vfile-message 4.0.3 | MIT | [license](third-party-license-texts/dd1081884a92952802f4803110a6bb543acea9a814c786d58605b4c1219b5ebb.txt) |
 | vite 8.1.4 | MIT | [LICENSE.md](third-party-license-texts/b1d741c26b53de1bbc0d4d7d3365b79888f9fe511527544a8a7b8e24dec43147.txt) |
-| vitest 4.1.10 | MIT | [LICENSE.md](third-party-license-texts/881d660c26831481b697e39724d4a35c9f86e07b67156d4aeb693a0b39910435.txt) |
+| vitest 4.1.11 | MIT | [LICENSE.md](third-party-license-texts/881d660c26831481b697e39724d4a35c9f86e07b67156d4aeb693a0b39910435.txt) |
 | w3c-xmlserializer 5.0.0 | MIT | [LICENSE.md](third-party-license-texts/ab654de803cdaa9e2819ab2e934bdf7f757e308649ec231d78e80e92425cdc34.txt) |
 | web-namespaces 2.0.1 | MIT | [license](third-party-license-texts/ca4662cb5d1b738fbe5350c0d5485ba11773b4b7208974082ae6e129a52d631d.txt) |
 | webidl-conversions 8.0.1 | BSD-2-Clause | [LICENSE.md](third-party-license-texts/a889cc4dbee2ae172c179856b25d75b0b7a5a136e1b97109b9b590b2ff1a879c.txt) |

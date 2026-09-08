@@ -2,7 +2,7 @@
 
 import { AlertTriangle, Home, RotateCw } from "lucide-react";
 import type { Route } from "next";
-import { type ErrorInfo, unstable_catchError } from "next/error";
+import { catchError, type ErrorInfo } from "next/error";
 import Link from "next/link";
 import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
@@ -18,7 +18,8 @@ type RecoverableErrorBoundaryProps = {
   className?: string;
 };
 
-function getDigest(error: Error): string | null {
+function getDigest(error: unknown): string | null {
+  if (!(error instanceof Error)) return null;
   const digest = (error as Error & { digest?: unknown }).digest;
   return typeof digest === "string" && digest.length > 0 ? digest : null;
 }
@@ -33,11 +34,11 @@ function RecoverableErrorFallback(
     align = "center",
     className,
   }: RecoverableErrorBoundaryProps,
-  { error, unstable_retry }: ErrorInfo,
+  { error, retry }: ErrorInfo,
 ) {
   const digest = getDigest(error);
 
-  // biome-ignore lint/correctness/useHookAtTopLevel: Next unstable_catchError renders this two-argument fallback as a component.
+  // biome-ignore lint/correctness/useHookAtTopLevel: Next catchError renders this two-argument fallback as a component.
   useEffect(() => {
     console.error(error);
   }, [error]);
@@ -74,7 +75,7 @@ function RecoverableErrorFallback(
           align === "center" ? "items-center justify-center" : "items-start",
         )}
       >
-        <Button onClick={() => unstable_retry()}>
+        <Button onClick={() => retry()}>
           <RotateCw />
           {retryLabel}
         </Button>
@@ -91,6 +92,4 @@ function RecoverableErrorFallback(
   );
 }
 
-export const RecoverableErrorBoundary = unstable_catchError(
-  RecoverableErrorFallback,
-);
+export const RecoverableErrorBoundary = catchError(RecoverableErrorFallback);
