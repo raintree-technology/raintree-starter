@@ -49,7 +49,6 @@ if (!pgBin)
 
 const directory = mkdtempSync(join(tmpdir(), "next-starter-local-"));
 chmodSync(directory, 0o700);
-const workspace = join(directory, "app");
 const data = join(directory, "data");
 const log = openSync(join(directory, "setup.log"), "a", 0o600);
 const appLog = openSync(join(directory, "app.log"), "a", 0o600);
@@ -161,24 +160,9 @@ try {
   writeFileSync(join(directory, "env.json"), JSON.stringify(env), {
     mode: 0o600,
   });
-  console.log("Generating and installing the client portal.");
-  await run("bun", [
-    "--no-env-file",
-    "scripts/scaffold.ts",
-    "--dir",
-    workspace,
-    "--name",
-    "Local Reference",
-    "--profile",
-    "client-portal",
-  ]);
-  await run(
-    "bun",
-    ["--no-env-file", "install", "--frozen-lockfile"],
-    workspace,
-  );
+  console.log("Testing the starter application.");
   console.log("Applying migrations and checking database isolation.");
-  await run("bun", ["run", "db:migrate"], workspace);
+  await run("bun", ["run", "db:migrate"]);
   await sql(url("local_admin"), [
     "REVOKE CREATE ON SCHEMA public FROM PUBLIC",
     "GRANT USAGE ON SCHEMA public TO app_auth, app_runtime",
@@ -187,8 +171,8 @@ try {
     "GRANT INSERT ON audit_event TO app_runtime",
     'GRANT SELECT, INSERT, UPDATE, DELETE ON "user", session, account, verification, two_factor, passkey, organization, member, invitation, subscription TO app_auth',
   ]);
-  await run("bun", ["run", "db:role:check"], workspace);
-  await run("bun", ["run", "db:rls:probe"], workspace);
+  await run("bun", ["run", "db:role:check"]);
+  await run("bun", ["run", "db:rls:probe"]);
   console.log("Starting the local app and testing authentication.");
   app = spawn(
     process.execPath,
@@ -200,7 +184,7 @@ try {
       "--port",
       String(appPort),
     ],
-    { cwd: workspace, env, stdio: ["ignore", appLog, appLog] },
+    { cwd: root, env, stdio: ["ignore", appLog, appLog] },
   );
   appClosed = new Promise((resolve) => {
     app.once("close", resolve);

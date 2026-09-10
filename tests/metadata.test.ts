@@ -81,7 +81,7 @@ describe("app metadata conventions", () => {
       publicRoutes.find((route) => route.path === "/privacy")?.description,
     ).toBe(
       features.seo
-        ? "How generated apps should handle account, organization, billing, and product data."
+        ? "How this application handles account, organization, billing, and product data."
         : undefined,
     );
   });

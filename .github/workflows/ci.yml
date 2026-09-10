@@ -24,4 +24,3 @@ jobs:
       - run: bun run build:ci
       - run: bunx agent-browser install --with-deps
       - run: bun run test:e2e
-      - run: bun run test:profiles

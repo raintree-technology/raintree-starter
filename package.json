@@ -4,8 +4,6 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "create": "bun scripts/scaffold.ts",
-    "scaffold": "bun scripts/scaffold.ts",
     "dev": "next dev --turbopack --hostname 127.0.0.1 --port 3450",
     "build": "next build",
     "build:ci": "DATABASE_URL=postgresql://user:password@localhost:55200/ci BETTER_AUTH_SECRET=ci-build-only-not-a-real-secret-32-chars NEXT_PUBLIC_APP_URL=http://localhost:3450 bun run build",
@@ -27,7 +25,6 @@
     "test:coverage": "vitest run --coverage",
     "test:e2e": "bun scripts/agent-browser-smoke.ts",
     "test:e2e:ui": "AGENT_BROWSER_KEEP_OPEN=1 bun scripts/agent-browser-smoke.ts",
-    "website-spec:audit": "bun scripts/website-spec-audit.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
@@ -40,7 +37,6 @@
     "check:biome:ci": "biome ci .",
     "trellis:todo": "mkdir -p test-results && trellis todo --output test-results/trellis-todo.json",
     "hig:audit": "bunx hig-doctor@2.0.3 . --json",
-    "test:profiles": "bun scripts/verify-profiles.ts",
     "test:local": "node scripts/test-local.mjs"
   },
   "dependencies": {
@@ -126,7 +122,7 @@
     "flatted": "3.4.2",
     "minimatch": "10.2.5",
     "picomatch": "4.0.5",
-    "js-yaml": "4.3.1",
+    "js-yaml": "4.3.2",
     "mermaid": "11.16.1",
     "nanoid": "3.3.18",
     "postcss": "8.5.26",

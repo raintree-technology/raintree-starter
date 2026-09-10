@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils";
 export const metadata = createPageMetadata({
   title: "Pricing",
   description:
-    "Compare free and paid starter plans, including per-seat team billing for generated SaaS apps.",
+    "Compare free and paid starter plans, including per-seat team billing.",
   path: "/pricing",
   markdownPath: "/pricing.md",
   imagePath: "/pricing/opengraph-image",

@@ -21,7 +21,7 @@ Read the installed Standards catalog and route through PROFILE-SOFTWARE-CHANGE,
 PROFILE-UI-FEATURE, or PROFILE-PUBLIC-WEB-PAGE as the task requires. Keep requirement
 IDs, source version, draft status, evidence, exceptions, and unverified scope in the
 change record. Installation and automated checks do not establish conformance.
-Do not copy the standards library into generated applications.
+Do not copy the standards library into applications built from this starter.
 
 ## Development checks
 

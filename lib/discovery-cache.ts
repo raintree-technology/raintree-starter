@@ -15,18 +15,6 @@ import {
   publicRoutes,
   site,
 } from "@/lib/discovery";
-import { WEBSITE_SPEC_SOURCE } from "@/lib/scaffold/addons";
-import {
-  WEBSITE_SPEC_CHECKLIST,
-  WEBSITE_SPEC_ITEM_COUNT,
-  websiteSpecCategoryCounts,
-  websiteSpecLevelCounts,
-} from "@/lib/scaffold/website-spec";
-import {
-  generateWebsiteSpecAuditMarkdown,
-  websiteSpecComplianceItems,
-  websiteSpecComplianceSummary,
-} from "@/lib/scaffold/website-spec-compliance";
 
 export async function getLlmsTxt(): Promise<string> {
   "use cache";
@@ -135,37 +123,6 @@ export async function getFeedJson() {
   };
 }
 
-export async function getWebsiteSpecJson() {
-  "use cache";
-  cacheLife("hours");
-
-  const compliance = websiteSpecComplianceItems();
-
-  return {
-    source: WEBSITE_SPEC_SOURCE,
-    itemCount: WEBSITE_SPEC_ITEM_COUNT,
-    levelCounts: websiteSpecLevelCounts(),
-    categoryCounts: websiteSpecCategoryCounts().map(
-      ({ id, label, itemCount, scaffoldDefault }) => ({
-        id,
-        label,
-        itemCount,
-        scaffoldDefault,
-      }),
-    ),
-    items: WEBSITE_SPEC_CHECKLIST,
-    complianceSummary: websiteSpecComplianceSummary(compliance),
-    compliance,
-  };
-}
-
-export async function getWebsiteSpecMarkdown(): Promise<string> {
-  "use cache";
-  cacheLife("hours");
-
-  return generateWebsiteSpecAuditMarkdown();
-}
-
 export async function getHomeSchema() {
   "use cache";
   cacheLife("hours");
@@ -237,8 +194,8 @@ export async function getMediaSitemapXml(): Promise<string> {
     {
       page: "/",
       image: "/opengraph-image",
-      caption: `${site.name} scaffold social preview`,
-      title: `${site.name} scaffold`,
+      caption: `${site.name} social preview`,
+      title: site.name,
     },
     {
       page: "/pricing",

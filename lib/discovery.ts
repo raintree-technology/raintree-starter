@@ -26,7 +26,7 @@ const routeCatalog = [
     path: "/pricing",
     title: "Pricing",
     description:
-      "Compare free and paid starter plans, including per-seat team billing for generated SaaS apps.",
+      "Compare free and paid starter plans, including per-seat team billing.",
     markdown: "/pricing.md",
     schema: "/schema/pricing.json",
     priority: 0.8,
@@ -35,7 +35,7 @@ const routeCatalog = [
     path: "/privacy",
     title: "Privacy",
     description:
-      "How generated apps should handle account, organization, billing, and product data.",
+      "How this application handles account, organization, billing, and product data.",
     markdown: null,
     schema: null,
     priority: 0.6,
@@ -86,16 +86,6 @@ export const discoveryResources = [
   },
   { path: "/feed.xml", title: "RSS feed", type: "application/rss+xml" },
   { path: "/feed.json", title: "JSON Feed", type: "application/feed+json" },
-  {
-    path: "/website-spec.json",
-    title: "Website Specification checklist registry",
-    type: "application/json",
-  },
-  {
-    path: "/website-spec.md",
-    title: "Website Specification audit report",
-    type: "text/markdown",
-  },
   { path: "/schemamap.xml", title: "Schema map", type: "application/xml" },
   {
     path: "/.well-known/security.txt",
@@ -155,26 +145,11 @@ export const publicApiResources = apiCatalog.filter(
 export const agentSkills = [
   {
     id: "starter-discovery",
-    name: `${site.name} scaffold discovery`,
-    description: `Use ${site.name} public discovery resources to understand routes, add-ons, feeds, structured data, and Markdown sources.`,
+    name: `${site.name} discovery`,
+    description: `Use ${site.name} public resources to understand routes, feeds, structured data, and Markdown sources.`,
     entrypoint: "/llms.txt",
     tags: ["sitemap", "llms", "schema"],
-    examples: [
-      "List the scaffold add-ons.",
-      "Fetch the pricing Markdown source.",
-    ],
-  },
-  {
-    id: "website-spec-discovery",
-    name: `${site.name} website-spec baseline`,
-    description:
-      "Fetch the scaffold's Website Specification posture and generated project defaults.",
-    entrypoint: "/page.md",
-    tags: ["website-spec", "seo", "agent-readiness", "security"],
-    examples: [
-      "Which spec categories are included?",
-      "Which add-ons are optional?",
-    ],
+    examples: ["List the public routes.", "Fetch the pricing Markdown source."],
   },
 ] as const;
 
@@ -283,8 +258,7 @@ type PublicPlan = {
 
 export function generateLlmsFullTxt(plans: readonly PublicPlan[]): string {
   const enabledFeatures = [
-    "configurable scaffold add-ons",
-    "Website Specification defaults for foundations, SEO, accessibility, security, performance, privacy, resilience, and agent readiness",
+    "configurable integrations",
     "Better Auth for email/password sessions",
     flags.oauth.google ? "Google OAuth" : null,
     flags.oauth.github ? "GitHub OAuth" : null,

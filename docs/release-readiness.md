@@ -5,8 +5,8 @@ configuration remains the responsibility of each adopter.
 
 ## Release checks
 
-The release procedure runs `bun run validate:full`, all five generated profiles,
-and `bun run test:local`. These cover unit tests, lint, types, architecture,
+The release procedure runs `bun run validate:full` and `bun run test:local`.
+These cover unit tests, lint, types, architecture,
 dependency audit, production builds, browser smoke checks, local authentication,
 migrations, database roles, and tenant isolation.
 
@@ -30,6 +30,6 @@ or production. Different database URL strings do not prove role isolation.
 Run `bun run db:role:check` against your runtime connection. Readiness checks
 connectivity, not row-level security.
 
-Generated applications do not update automatically. Review template changes and
-migrations before adopting them. Public source and passing checks do not provide
+Applications created from this starter do not update automatically. Review starter
+changes and migrations before adopting them. Public source and passing checks do not provide
 security certification or a support service-level agreement.

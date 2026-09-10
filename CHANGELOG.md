@@ -1,6 +1,15 @@
 # Changelog
 
-This file records user-visible changes to the starter, scaffold profiles, add-ons, generated-project contract, migrations, environment requirements, and compatibility.
+This file records user-visible changes to the starter, migrations, environment
+requirements, and compatibility.
+
+## Unreleased
+
+- Make the repository a directly cloned application starter.
+- Remove the generator, profile matrix, scaffold manifests, and Website
+  Specification bookkeeping.
+- Keep optional product integrations behind `starter.config.ts` flags.
+- Patch `js-yaml` to 4.3.2.
 
 ## 0.1.1 — 2026-09-08
 

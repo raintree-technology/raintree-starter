@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   publisher: site.name,
   keywords: [
     "Next.js starter",
-    "SaaS scaffold",
+    "application starter",
     "Better Auth",
     "Stripe",
     "Neon",

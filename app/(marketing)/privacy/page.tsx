@@ -5,7 +5,7 @@ import { createPageMetadata } from "@/lib/metadata";
 export const metadata = createPageMetadata({
   title: "Privacy",
   description:
-    "How generated apps should handle account, organization, billing, and product data.",
+    "How this application handles account, organization, billing, and product data.",
   path: "/privacy",
   imagePath: "/privacy/opengraph-image",
   imageAlt: "Privacy policy for Next Starter",

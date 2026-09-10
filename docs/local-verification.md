@@ -4,14 +4,14 @@
 
 Run `bun run test:local` from this checkout after installing its dependencies.
 It requires Bun 1.3.11, Node 24, and local PostgreSQL server tools (tested with 18).
-The command creates a fresh client portal and database with independent roles,
+The command tests this starter against a fresh database with independent roles,
 applies migrations, runs the role/RLS checks and all 50 authentication assertions,
 and stops both local servers. No existing database configuration is used.
 
 Run `bun run test:local --keep` to leave the tested app running for inspection.
 The terminal prints the URL and private `fixtures.json` path containing test
 sign-in credentials. Ctrl+C stops the app and database. Each run retains its
-private temporary directory for diagnosis, including generated code, database
+private temporary directory for diagnosis, including database
 files, credentials, and local email links. Do not copy these secrets into the
 repository or reports. Temporary files may disappear after system cleanup.
 
@@ -29,7 +29,6 @@ Repository-wide checks remain separate:
 
 ```sh
 bun run validate:full
-bun run test:profiles
 ```
 
 ## Limits

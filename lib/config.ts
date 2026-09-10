@@ -10,7 +10,7 @@ const tenancy = starterConfig.tenancy as "single" | "multi";
  */
 export const features = {
   appName: starterConfig.appName,
-  seo: (starterConfig.scaffold.addons as readonly string[]).includes("seo"),
+  seo: starterConfig.seo,
   tenancyMulti: tenancy === "multi",
   oauth: {
     google: i.oauth.google,
